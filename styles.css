@@ -1,0 +1,96 @@
+body{
+    background: #b03500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container1{
+    width: 1000px; /* Ancho del contenedor */
+    margin: 0px auto; /* Centrar el contenedor */
+    border: 1px solid black; /* Borde del contenedor */
+}
+
+header{
+    background: #591b00;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center; /* Alineación del texto horizontal*/
+    line-height: 100px; /* Borde del contenedor vertical*/
+    color: white; /* Cambio de color de la letra*/
+}
+
+nav{ /* Color y altura de la barra de navegación*/
+    background: black;
+    height: 50px;
+}
+
+nav li{ 
+    float: left; /* Se alinean todas las opciones a la izq*/
+    list-style: none; /* Quitar los estilos default*/
+    margin: 10px; /* Separar entre las opciones*/
+    line-height: 30px;
+}
+
+nav li a{ /* Color de los vínculos*/
+    color: white;
+}
+
+.clearfix{ /* Este div con una clase de nombre "clearfix" se creó para que no se "aglomeren" los elementos */
+    clear:both; /* Con esto, no se juntaran los elementos sup e inf*/
+}
+
+#content1{
+    float: left;
+    width: calc(80% - 20px); /* Se le ordena que realice el calc de la medida*/
+    background: #2a0059;
+    color: white;
+    min-height: 700px; /* Altura mínima del elemento*/
+    padding: 10px; /* Separa los elementos internos (texto, etc) del borde*/
+}
+
+aside{
+    float: left;
+    width: calc(20% - 22px);
+    background: black;
+    color: white;
+    border-left: 2px solid white;
+    min-height: 700px;
+    padding: 10px; 
+}
+
+footer{
+    background: #591b00;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.image1{
+    content: url(skyrim/valthume.png);
+    border-radius: 10px;
+    max-width: 20%;
+    height: auto;
+    
+}
+
+.image2{
+    content: url(skyrim/laberynthia.jpg);
+    border-radius: 10px;
+    max-width: 20%;
+    height: auto;
+}
+
+.image3{
+    content: url(skyrim/ysgramortumb.png);
+    border-radius: 10px;
+    max-width: 20%;
+    height: auto;
+}
+
+.image4{
+    content: url(skyrim/ustengrav.jpg);
+    border-radius: 10px;
+    max-width: 20%;
+    height: auto;
+}
