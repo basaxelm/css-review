@@ -67,10 +67,10 @@ footer{
 }
 
 .image1{
-    content: url(skyrim/valthume.png);
-    border-radius: 10px;
-    max-width: 20%;
-    height: auto;
+    content: url(skyrim/valthume.png); /* ubicación de la imagen */
+    border-radius: 10px; /* Borde de la imagen */
+    max-width: 20%; /* ancho máximo */
+    height: auto; /* altura: automática */
     
 }
 
